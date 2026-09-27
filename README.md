@@ -1,4 +1,4 @@
-<h1 align="center">claude-opus-5-5-demo</h1>
+<h1 align="center">h5-playables</h1>
 
 <p align="center">
   <b>一句话提示词 · One Shot —— Claude Opus 5.5 代码生成能力实测</b>
@@ -6,7 +6,7 @@
   三个可玩的 3D 网页游戏，每个游戏只给一句提示词，单会话生成，代码零人工改动，直接部署上线。
 </p>
 
-> **本仓库维护方**：[liudong317/claude-opus-5-5-demo](https://github.com/liudong317/claude-opus-5-5-demo)  
+> **本仓库维护方**：[liudong317/h5-playables](https://github.com/liudong317/h5-playables)  
 > 基于上游 [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 同步；界面已改为指向本仓库 GitHub，并移除 X 平台入口。详见 [项目进度.md](./项目进度.md)。
 
 <p align="center">
