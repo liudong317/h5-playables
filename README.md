@@ -6,6 +6,9 @@
   三个可玩的 3D 网页游戏，每个游戏只给一句提示词，单会话生成，代码零人工改动，直接部署上线。
 </p>
 
+> **本仓库维护方**：[liudong317/claude-opus-5-5-demo](https://github.com/liudong317/claude-opus-5-5-demo)  
+> 基于上游 [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 同步；界面已改为指向本仓库 GitHub，并移除 X 平台入口。详见 [项目进度.md](./项目进度.md)。
+
 <p align="center">
   <a href="https://www.anthropic.com/claude/opus"><img src="https://img.shields.io/badge/Claude-Opus%205.5-D97757?style=for-the-badge" alt="Claude Opus 5.5" /></a>
   <img src="https://img.shields.io/badge/Three.js-r186-049EF4?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js r186" />
@@ -79,11 +82,13 @@
 
 ## 在线体验
 
-| 游戏 | 地址 |
-| --- | --- |
-| 鹈鹕骑自行车 | <https://claude-opus-5-5.riba2534.cn/> |
-| 穿越火线·运输船 | <https://claude-opus-5-5-cf-transport-ship.pages.dev> |
-| QQ 飞车 | <https://claude-opus-5-5-qqfeiche3d.pages.dev/> |
+| 游戏 | 地址 | 说明 |
+| --- | --- | --- |
+| 鹈鹕骑自行车 | <https://claude-opus-5-5.riba2534.cn/> | 上游原作者演示 |
+| 穿越火线·运输船 | <https://claude-opus-5-5-cf-transport-ship.pages.dev> | 上游原作者演示 |
+| QQ 飞车 | <https://claude-opus-5-5-qqfeiche3d.pages.dev/> | 上游原作者演示 |
+
+本仓库本地预览见 [项目进度.md](./项目进度.md)。自有 CDN / Pages 部署地址待补充。
 
 ## 本地构建
 
@@ -133,5 +138,5 @@ node build.mjs    # 构建产物输出到 dist/index.html
 
 ## 说明
 
-- 本仓库由 Claude Opus 5.5 在 Claude Code 中生成（2026-09）；三个游戏的源码、README 均为模型输出原样，人工未做改动
+- 上游源码由 Claude Opus 5.5 在 Claude Code 中生成（2026-09）；本 fork 在其基础上做了链接与维护方调整
 - 游戏为能力测试用途的致敬作品，与《穿越火线》《QQ 飞车》原厂无关
